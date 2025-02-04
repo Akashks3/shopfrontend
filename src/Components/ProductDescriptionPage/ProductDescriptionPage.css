@@ -1,0 +1,251 @@
+.ProdDetails {
+  width: 100%;
+  margin: auto;
+  height: 100hv;
+  display: flex;
+  flex-wrap: wrap;
+  text-align: start;
+  align-items: center;
+  justify-content: center;
+}
+
+.ProdImages {
+  height: 100hv;
+  margin-top: 3%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 6px;
+  
+}
+.ProdImages>img{
+    width: 100%;
+    height: 100hv;
+}
+
+.ProdInfo {
+  margin-top: 3%;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.12) 0px 1px 3px, rgba(0, 0, 0, 0.24) 0px 1px 2px;
+  border-radius: 6px;
+}
+.ProdInfo > div:nth-child(1) > p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 30px;
+  font-weight: 300;
+  margin-top: 10px;
+  padding-left: 20px;
+}
+.ProdInfo > div:nth-child(2) > p {
+  font-weight: bolder;
+  font-size: 120%;
+  padding-left: 20px;
+}
+.ProdInfo > div:nth-child(3) > p {
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: bolder;
+  font-size: 120%;
+}
+.checked {
+  color: #636363;
+}
+
+.PriceDiv {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 10px;
+}
+
+.PriceDiv>div:nth-child(1)>p{
+    font-weight: bolder;
+    font-size: 120%;
+    width: 100%;
+    margin: 0px;
+}
+.PriceDiv>div:nth-child(2)>p{
+    font-weight: bolder;
+    font-size: 120%;
+    margin: 0px;
+    margin-left: 25px;
+    width: 100%;
+    color: #80828d;
+    text-decoration: line-through;
+}
+.PriceDiv>div:nth-child(3)>p{
+    font-weight: bolder;
+    font-size: 120%;
+    margin: 0px;
+    margin-left: 25px;
+    width: 100%;
+    height: 100hv;
+    color: hsl(0, 0%, 16%);
+}
+
+#brand{
+  font-weight: bolder;
+  font-size: 120%;
+  padding-left: 20px;
+}
+
+#size{
+  font-weight: bolder;
+  font-size: 120%;
+  padding-left: 20px;
+  margin-top: 40px;
+}
+
+#size:hover{
+  cursor: pointer;
+}
+
+#rating{
+  font-weight: bolder;
+  font-size: 120%;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+#price{
+  font-weight: bolder;
+  font-size: 120%;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+
+.SelectSizeDiv{
+    margin-top: 3%;
+}
+.SelectSizeDiv>span:nth-child(1){
+    font-weight: bolder;
+    font-size: larger;
+    color: black;
+}
+.SelectSizeDiv>span:nth-child(2){
+    margin-left: 4%;
+    color: #292929;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+.SizesDiv {
+    width: 40%;
+    margin: auto;
+   display: flex;
+   justify-content: space-between;
+}
+.SizesDiv>div{
+    width: 100%;
+    height: 100hv;
+    border-radius: 10%;
+    border: none;
+    background-color: #292929;
+    color:white;
+    text-align: center;
+    margin-bottom: 0%;
+    margin-top: -8%;
+    padding-top: 2%;
+    margin-left: -10px;
+    margin-right: 20px;
+}
+.SizesDiv>div>p{
+    margin-top: -0.001px;
+    font-size: 1rem;
+    
+}
+.SizesDiv>div:hover{
+    background-color: hsl(0, 0%, 12%);
+    color: azure;
+}
+
+.AddButton{
+    margin-top: 10%;
+    display: flex;
+    margin-bottom: 5%;
+}
+
+.AddButton>button:nth-child(1){
+    width: 100%;
+    height: 100hv;  
+    background-color: hsl(0, 0%, 18%);
+    color: aliceblue;
+    border: none;
+    font-size:100%;
+    font-weight: bolder;
+    margin-left: 20px;
+    border-radius: 6px;
+    align-items: center;
+}
+
+.AddButton>button:nth-child(2){
+    width: 100%;
+    margin-left: 5%;
+    border: none;
+    font-size: larger;
+    font-weight: bolder;
+    border-radius: 6px;
+    margin-bottom: 5px;
+}
+
+.AddButton>button:nth-child(2){
+  cursor: pointer;
+}
+
+.hbtn {
+  position: relative;
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: nowrap;
+  overflow: hidden;
+  padding: 8px 20px;
+  margin: 0px 3px 6px;
+  text-align: center;
+  border: 2px solid rgb(255, 255, 255);
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+  white-space: nowrap;
+  z-index: 0;
+} 
+
+
+.hbtn i {
+  padding-right: 8px;
+} 
+
+
+.hb-fill-right-br::before {
+  position: absolute;
+  content: "";
+  background: hsl(0, 0%, 20%);
+  transition-duration: 0.3s;
+  z-index: -1;
+  inset: 0px auto auto 0px;
+  width: 100%;
+  height: 100hv;
+  opacity: 1;
+} 
+
+
+.hb-fill-right-br:hover::before {
+  width: 100%;
+  height: 100hv;
+  opacity: 1;
+} 
+
+
+.hb-fill-right-br:hover {
+  color: rgb(0, 0, 0);
+  background: hsl(0, 0%, 8%);
+  transition: color 0.3s ease 0s, #303030 0s ease 0.3s;
+  cursor: pointer;
+} 
+
+.PorductDetailDiv>p{
+margin-top:10%;
+font-size: 140%;
+font-weight: bolder;
+}
+
+
+.SyncLoaderInd{
+  margin: auto;
+  margin-top: 10%;
+  padding-bottom: 10%;
+}

@@ -1,0 +1,128 @@
+.ConatctDetailsMain{
+    width: 100%;
+    height: 100hv;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: auto;    
+    text-align: center;
+    justify-content: center;
+}
+
+.ConatctDetails{
+    
+     border:none;
+     width: 100%;
+     text-align: center !important;
+}
+
+.SaveAddress{
+    border: none;
+}
+
+.SaveAddress>div{
+    border:none;
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+.SaveAddress>div>div{
+    border:none;
+    display: block;
+    justify-content: center;
+    color: hsl(0, 0%, 15%);
+    border-radius: 2px;
+    width: 10%;
+    height: 100hv;
+    text-align: center;
+    margin-right: 3%;
+}
+
+.SaveAddress>div>div:hover{
+    background-color: #181818;
+    color: whitesmoke;
+}
+.SaveAddress>div>div>p{
+     border:none;
+    margin-top: 8px;
+    font-weight: bolder;
+}
+
+.AddAddress{
+    margin: auto;
+    border: 2px solid #252424;
+    background-color: hsl(0, 1%, 16%);
+    border-radius: 25px;
+    color: whitesmoke;
+    justify-content: center;
+    width: 50%;
+    margin-top: 5%;
+    height: 100hv;
+    text-align: center;
+    
+}
+
+.AddAddress>div>p{
+    font-weight: bolder;
+    text-align: center;
+}
+
+.ConatctCartData{
+    width: 100%;
+}
+
+#box{
+    display: flex;
+    width: 100%;
+    height: 100hv;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    border: none;
+  }
+  
+  #box1{
+    width: 40px;
+    background-color: hsl(0, 1%, 19%);
+    color: white;
+    border-radius: 6px;
+    cursor: pointer;
+    
+  }
+  
+  #box1:hover{
+    color: black;
+  }
+  
+  #quantity{
+    width: 40px;
+  }
+
+  .CartRemove{
+    margin-right: 45px;
+    border: 1px solid none;
+    width: 120px;
+    border-radius: 6px;
+    background-color: #2d2d2d;
+    color: white;
+    height: 30px;
+    padding-top: 6px;
+    cursor: pointer;
+    
+  }
+  
+  .CartRemove:hover{
+    color: black;
+  
+  }
+
+  #cartPro{
+      display: flex;
+      font-size: 16px;
+
+  }
+
+  #cartImage{
+      width: 180px;
+      height: 40px;
+  }

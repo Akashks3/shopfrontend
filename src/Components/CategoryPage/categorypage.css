@@ -1,0 +1,48 @@
+.CategoryProducts {
+    padding: 20px;
+    width:100%;
+    margin: auto;
+  }
+  
+.CategoryProductsHeading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .CategoryProdDisplay {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px;
+  }
+  
+  .IndividualProd {
+    width: 100%;
+    background-color: #f9f9f9;
+    padding: 15px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .IndividualProdImg img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+  }
+  
+  .IndividualProdTitle p {
+    margin: 10px 0;
+  }
+  
+  #buynow {
+    background-color: hsl(0, 0%, 18%);
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+  }
+  
+  #buynow:hover {
+    background-color: hsl(0, 0%, 16%);
+  }
+  

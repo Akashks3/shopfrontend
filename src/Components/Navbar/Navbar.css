@@ -1,0 +1,145 @@
+.NavBarMain{
+    display:flex;
+    flex-wrap:nowrap;
+    justify-content:space-between;
+    margin-top: 10% auto;
+    align-items:center;
+    padding: 5px 35px ;
+    font-weight:300;
+    font-size: 20px;
+    color: #232323;
+    background-color: hsl(0, 0%, 100%);
+}
+.NavBarBottom{
+  display:flex;
+  flex-wrap:nowrap;
+  justify-content:space-between;
+  padding-right:10px 60px;
+  margin-top: 10% auto;
+  position: fixed;
+  z-index: 999;
+  top:auto;
+  bottom: 0;
+  margin: auto;
+  align-items: center;
+  font-size: 20px;
+  width: 100%;
+  background-color: hsl(0, 0%, 100%);
+}
+
+
+.NavbarAvtar {
+  cursor: pointer; 
+}
+
+.dropdown-content {
+  display: block;
+  position: absolute; 
+  bottom: 100%; 
+  right:  0; 
+  background-color: white;
+
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 5px 16px;
+  text-decoration: none;
+  display: block;
+}
+button.dropdown-item {
+  background: none;
+  border: none;
+  color: inherit;
+  text-align: inherit;
+  cursor: pointer;
+}
+
+button.dropdown-item:hover {
+  color: #007bff;  
+  text-decoration: none;  
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+.NavbarAvtar{
+    width: 42px;
+    height: 42px;
+    border: 1px solid black;
+    border-radius: 25px;
+    align-content: center;
+}
+.NavbarAvtar>div>p{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-transform: capitalize;
+    margin: -15px;
+    text-align: center;
+    font-size: 29px;
+    font-weight: bolder;
+
+}
+
+input{
+    height: 140%;
+}
+
+
+
+
+.name {
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+  }
+  .name:hover{
+      color: #2155CD;
+       
+  }
+  
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+    background-color: transparent;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+  
+  .dropdown-content a:hover {background-color: #f1f1f1}
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  
+  .dropdown:hover .dropbtn {
+    background-color: hsl(0, 0%, 11%);
+  }
+
+  .FontStyleNav{
+    font-family: 'Water Brush', cursive;
+    font-size: 30px;
+    font-size: larger;
+  }
+
+  #home1:hover{
+    cursor: pointer;
+  }
