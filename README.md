@@ -1,5 +1,5 @@
 # Menshop e-commerce website 
-demo:[ https://euphonious-sorbet-8a2d17.netlify.app/]
+demo:[ https://unrivaled-taiyaki-6d08b0.netlify.app/]
 ## Available Scripts
 
 In the project directory, you can run:
