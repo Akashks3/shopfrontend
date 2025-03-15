@@ -35,6 +35,9 @@ export default function Login() {
       navigate("/"); 
     }
   }, [isAuth, navigate]); 
+   const loginWithGoogle = () => {
+    window.location.href = 'https://menshopbackend.onrender.com/auth/google';
+  };
   return (
     <Box sx={{ width: '100%', maxWidth: 400, mx: 'auto', mt: 5, p: 3, borderRadius: 2, boxShadow: 3 }}>
       <Typography variant="h4" component="h1" gutterBottom align="center">
@@ -83,7 +86,7 @@ export default function Login() {
               className='ButtonDiv'
               variant="contained"
               fullWidth
-              onClick={() => window.open("https://menshopbackend.onrender.com/auth/google", "_self")}
+              onClick={loginWithGoogle}
               startIcon={<FcGoogle />}
             >
               Sign in with Google
