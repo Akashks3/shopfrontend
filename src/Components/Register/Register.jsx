@@ -43,7 +43,10 @@ export default function Register() {
   if (isAuth) {
     navigate("/");
   }
-
+  const registerWithGoogle = () => {
+    window.location.href = 'https://menshopbackend.onrender.com/auth/google/callback';
+  };
+  
   return (
     <div>
       <h1>Register</h1>
@@ -103,7 +106,7 @@ export default function Register() {
           <Button 
             id='google' 
             variant="outlined" 
-            onClick={() => window.open("https://menshopbackend.onrender.com/auth/google/callback", "_self")}
+            onClick={registerWithGoogle}
           >
             <FcGoogle /> Sign in with Google
           </Button>
