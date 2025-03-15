@@ -44,7 +44,7 @@ export default function Register() {
     navigate("/");
   }
   const registerWithGoogle = () => {
-    window.location.href = 'https://menshopbackend.onrender.com/auth/google/callback';
+    window.location.href = '/auth/google/callback';
   };
   
   return (
