@@ -36,7 +36,7 @@ export default function Login() {
     }
   }, [isAuth, navigate]); 
    const loginWithGoogle = () => {
-    window.location.href = 'https://menshopbackend.onrender.com/auth/google';
+    window.location.href = '/auth/google';
   };
   return (
     <Box sx={{ width: '100%', maxWidth: 400, mx: 'auto', mt: 5, p: 3, borderRadius: 2, boxShadow: 3 }}>
